@@ -11,12 +11,12 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background-color: lightblue;
 }
 .container{
   max-width: 700px;
   width: 100%;
-  background-color: #fff;
+  background-color: wheat;
   padding: 25px 30px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
@@ -114,7 +114,7 @@ form .input-box span.details{
    letter-spacing: 1px;
    cursor: pointer;
    transition: all 0.3s ease;
-   background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   background: black ;
  }
  form .button input:hover{
   /* transform: scale(0.99); */
