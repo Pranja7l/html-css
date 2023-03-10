@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <!---<title> Responsive Registration Form | CodingLab </title>--->
-    <link rel="stylesheet" href="index11.css">
+    <link rel="stylesheet" href="/static/css/index11.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
@@ -27,15 +25,16 @@
           </div>
           <div class="input-box">
             <span class="details">Phone Number</span>
-            <input type="text" placeholder="Enter your number" required>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="Enter your password" required>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <small>Password should be 6-15 characters long and contain at least one capital letter and @ symbol.</small>
           </div>
           <div class="input-box">
             <span class="details">Confirm Password</span>
-            <input type="text" placeholder="Confirm your password" required>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
           </div>
         </div>
         <div class="gender-details">
@@ -64,6 +63,3 @@
       </form>
     </div>
   </div>
-
-</body>
-</html>
